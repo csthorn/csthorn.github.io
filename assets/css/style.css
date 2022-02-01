@@ -78,6 +78,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   width: 120px;
   border: 8px solid #2c2f3f;
+
 }
 #header .profile h1 {
   font-size: 24px;
@@ -408,9 +409,9 @@ section {
   color: #050d18;
 }
 .resume .resume-item {
-  padding: 0 0 20px 20px;
+  padding: 0 10px 20px;
   margin-top: -2px;
-  border-left: 2px solid #1f5297;
+  border-left: 2px solid #fff;
   position: relative;
 }
 .resume .resume-item h4 {
@@ -419,17 +420,18 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #050d18;
-  margin-bottom: 10px;
+  color: #050d18
+  margin-bottom: 5px;
+
 }
 .resume .resume-item h5 {
-  font-size: 16px;
-  background: #e4edf9;
-  padding: 5px 15px;
-  display: inline-block;
+    font-size: 16px;
+  background: #fff;
   font-weight: 600;
-  margin-bottom: 10px;
- position: left
+  margin-bottom: 5px;
+
+    
+    
 }
 .resume .resume-item ul {
   padding-left: 20px;
@@ -448,8 +450,12 @@ section {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #fff;
-  border: 2px solid #1f5297;
+}
+#left{
+     float:left;
+}
+#right{
+     float:right;
 }
 
 /*--------------------------------------------------------------
